@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="box"></div> -->
+    <!-- <div id="blur"></div> -->
+    <main>
+        <div id="navbar">
+            <div id="logo"><img src="logo.png" alt=""></div>
+            <div class="navlist">
+                <a href="">Home</a>
+                <a href="" id="about">About</a>
+                <a href="">Projects</a>
+                <a href="">Experience</a>
+                <a href="" id="resume">Resume</a>
+            </div>
+            <div id="contact" class="navlist">
+                <a data-router-disabled href="mailto:malodepawan8@gmail.com">Contact</a>
+                <a href="tel:+919960826476"><i class="ri-phone-fill"></i></a>
+                <a href="https://www.linkedin.com/in/pawan-malode-251284250/"><i class="ri-linkedin-fill"></i></a>
+            </div>
+        </div>
+    
+        <div id="front">
+            <div class="info">
+                <h2>Hii, I'm <span>Pawan...</span></h2>
+                <p> A passionate <span>AWS Cloud Engineer</span> with a strong background in designing, implementing, and optimizing cloud solutions.</p>
+                <button><a data-router-disabled href="mailto:malodepawan8@gmail.com">contat me</a></button>
+            </div>
+            <div class="profile"><img src="img.png" alt=""></div>
+        </div>
+
+        <div id="about-me">
+            <h2><span>About</span></h2>
+            <div id="about">
+                <div class="profile"><img src="img2.png" alt=""></div>
+                <div class="info">
+                    <p>Hi, I'm Pawan Malode, a passionate <span>AWS Cloud Engineer</span> with a strong background in designing, implementing, and optimizing cloud solutions.</p>
+                    <br>
+                    <p>I hold AWS certifications including <span>AWS Certified Solutions Architect – Associate</span>. My journey in cloud engineering has been a blend of hands-on experience and continuous learning, and I'm excited to share some of my key projects and accomplishments with you.</p>
+
+                    <button id="resume"><a href="Pawan Malode resume.pdf" download>Resume</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="more-info">
+            <div id="project-info">
+                <div class="project">
+                    <h2><span>Project</span></h2>
+                    <h2>Deploying a Static Website on AWS</h2>
+                    <p>In this project, I have created a static website using HTML and CSS and then deployed it on AWS (Amazon Web Services). Configured a public S3 (Simple Storage Service) bucket to host the website's files and set up CloudFront, AWS's Content Delivery Network (CDN), to enhance the website's performance and content delivery. This project served as an excellent opportunity to learn the basics of AWS and web hosting.</p>
+                </div>
+                <div class="project">
+                    <h2><span>Certification</span></h2>
+                    <p>AWS Certified Solutions Architect - Associate (October 2023)</p>
+                </div>
+            </div>
+            <div id="skills">
+                <h2><span>Skills</span></h2>
+                <button>AWS EC2, Lambda, S3, RDS, DynamoDB, VPC, and more</button>
+                <button>AWS Identity and Access Management (IAM) for security</button>
+                <button>CI/CD pipelines with AWS CodePipeline and AWS CodeDeploy</button>
+                <button>AWS Serverless and Container Services (AWS Fargate, AWS Lambda)</button>
+                <button>Monitoring and Logging using AWS CloudWatch and AWS X-Ray</button>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="hmain">
+              <h2><span>Contact</span></h2>
+              <p>Feel free to contact me by submitting the form given below and I will get back to you as soon as possible.</p>
+            </div>
+            <form action="" id="contact-form">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Enter Your Name">
+              <label for="email">Email</label>
+              <input type="email" name="name" id="email" placeholder="Enter Your Email">
+              <label for="name">Message</label>
+              <textarea name="message" id="message" cols="50" rows="10" placeholder="Enter Your Message"></textarea>
+              <button>SUBMIT</button>
+            </form>
+        </div>
+
+        <div id="footer">
+            <div id="footer-main">
+              <div id="ftinfo">
+                <h2><span>Pawan Malode</span></h2>
+                <p>A passionate AWS Cloud Engineer with a strong background in designing, implementing, and optimizing cloud solutions.</p>
+              </div>
+              <div id="social">
+                <h2><span>Social</span></h2>
+                <div id="icon">
+                    <a href="tel:+919960826476"><i class="ri-phone-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/pawan-malode-251284250/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://x.com/malode_pavan?t=UTzI5sz1WC_2XbH5BVvKiQ&s=08"><i class="ri-twitter-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <div id="copyright">
+              <p>&copy; Copyright 2023. Made by Pawan Malode</p>
+            </div>
+          </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
